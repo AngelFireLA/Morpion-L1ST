@@ -8,9 +8,10 @@ from interface import menu_pause
 from moteur.joueur import Joueur
 from moteur.partie import Partie
 from utils import largeur_fenetre, hauteur_fenetre, afficher_texte, dict_couleurs, vérifier_si_victoire, \
-    vérifier_si_match_nul, coups_légaux, récupérer_ip_cible, récupérer_port, est_local, symbole_opposé
+    vérifier_si_match_nul, coups_légaux, récupérer_ip_cible, récupérer_port, est_local, symbole_opposé, \
+    chemin_absolu_dossier
 
-arriere_plan = pygame.image.load("assets/images/menu_arrière_plan.jpg")
+arriere_plan = pygame.image.load(chemin_absolu_dossier+"assets/images/menu_arrière_plan.jpg")
 arriere_plan = pygame.transform.scale(arriere_plan, (largeur_fenetre, hauteur_fenetre))
 
 
