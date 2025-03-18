@@ -1,8 +1,8 @@
 import random
 import time
 
-from bots.bot import Bot
-from utils import coups_légaux, copier_grille, symbole_opposé, vérifier_si_victoire, vérifier_si_match_nul
+from .bot import Bot
+from ..utils import coups_légaux, copier_grille, symbole_opposé, vérifier_si_victoire, vérifier_si_match_nul
 
 
 class Negamax(Bot):

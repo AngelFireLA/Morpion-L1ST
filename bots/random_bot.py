@@ -1,5 +1,5 @@
-from bots.bot import Bot
-from utils import coups_légaux
+from .bot import Bot
+from ..utils import coups_légaux
 import random
 
 

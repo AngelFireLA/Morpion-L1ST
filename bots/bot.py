@@ -1,4 +1,4 @@
-from utils import coups_légaux
+from ..utils import coups_légaux
 import random
 
 
